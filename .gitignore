@@ -2,3 +2,5 @@ node_modules
 posts
 postsV2
 build
+test
+.env

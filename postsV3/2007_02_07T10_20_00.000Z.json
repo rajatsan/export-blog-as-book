@@ -1,0 +1,26 @@
+{
+    "kind": "blogger#post",
+    "id": "6582270182739674811",
+    "blog": {
+        "id": "7345918888953765241"
+    },
+    "published": "2007-02-07T10:20:00Z",
+    "updated": "2015-02-08T10:28:49Z",
+    "url": "http://happinessofbeing.blogspot.com/2007/02/i-apologise-if-i-have-not-replied-to.html",
+    "selfLink": "https://blogger.googleapis.com/v3/blogs/7345918888953765241/posts/6582270182739674811",
+    "title": "I apologise if I have not replied to any e-mail that you might have sent me",
+    "content": "This is a personal message to all friends who may have sent me an e-mail or tried to contact me in any other way during the last ten days or so.<br /><br />I moved from my former apartment on 28<span class=\"blsp-spelling-error\" id=\"SPELLING_ERROR_0\" onclick=\"BLOG_clickHandler(this)\">th</span> January, and since that time I have not had regular access to the <span class=\"blsp-spelling-error\" id=\"SPELLING_ERROR_1\" onclick=\"BLOG_clickHandler(this)\">internet</span> and my e-mail. During this time I have received many e-mails and other messages, but I have not had an opportunity to reply to them, so if you have not received an acknowledgement for any message you may have sent me, I apologise.<br /><a name='more'></a><br />I will try at least to acknowledge all the e-mails that I have received as soon as I can. However, I expect my <span class=\"blsp-spelling-error\" id=\"SPELLING_ERROR_2\" onclick=\"BLOG_clickHandler(this)\">internet</span> access to be limited for some more weeks, because I am currently looking for a job, and until I know where I am going to be working I cannot know where I should find a more permanent apartment. Since I am now living in some temporary <span class=\"blsp-spelling-corrected\" id=\"SPELLING_ERROR_3\">accommodation</span>, I have no <span class=\"blsp-spelling-error\" id=\"SPELLING_ERROR_4\" onclick=\"BLOG_clickHandler(this)\">internet</span> connection of my own, so I have to rely upon <span class=\"blsp-spelling-error\" id=\"SPELLING_ERROR_5\" onclick=\"BLOG_clickHandler(this)\">internet</span> cafes or hotels to access the <span class=\"blsp-spelling-error\" id=\"SPELLING_ERROR_6\" onclick=\"BLOG_clickHandler(this)\">internet</span> and my e-mail. Therefore please bear with me if you find it difficult to contact me by e-mail.",
+    "author": {
+        "id": "03460943269122289281",
+        "displayName": "Michael James",
+        "url": "https://www.blogger.com/profile/03460943269122289281",
+        "image": {
+            "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+        }
+    },
+    "replies": {
+        "totalItems": "2",
+        "selfLink": "https://blogger.googleapis.com/v3/blogs/7345918888953765241/posts/6582270182739674811/comments"
+    },
+    "etag": "\"dGltZXN0YW1wOiAxNDIzMzkxMzI5Njg5Cm9mZnNldDogMAo\""
+}

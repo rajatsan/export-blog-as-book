@@ -1,0 +1,26 @@
+{
+    "kind": "blogger#post",
+    "id": "589282733778057779",
+    "blog": {
+        "id": "7345918888953765241"
+    },
+    "published": "2007-05-10T11:58:00+01:00",
+    "updated": "2008-06-12T03:02:56+01:00",
+    "url": "http://happinessofbeing.blogspot.com/2007/05/back-online.html",
+    "selfLink": "https://blogger.googleapis.com/v3/blogs/7345918888953765241/posts/589282733778057779",
+    "title": "Back online",
+    "content": "In my previous post, <a href=\"http://happinessofbeing.blogspot.com/2007/03/please-note-for-few-weeks-i-will-not.html\">Please note – for a few weeks I will not have internet access</a>, I wrote that for at least two weeks and perhaps longer I would not have an internet connection or access to my e-mail. That expected \"two weeks and perhaps longer\" turned out to be seven weeks, but I now have my internet connection again, and I expect it to be uninterruped for a while, except probably for ten days or so at the end of this month, and another ten days or so at the beginning of August.<br /><br />If you have sent me any e-mail since March 22nd, I apologise for not having replied earlier, and I will try to reply during the next week or so. I now have a backlog of more than a hundred e-mails to read and respond to, so I cannot reply to all of them immediately, but I will do so as soon as I can.",
+    "author": {
+        "id": "03460943269122289281",
+        "displayName": "Michael James",
+        "url": "https://www.blogger.com/profile/03460943269122289281",
+        "image": {
+            "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+        }
+    },
+    "replies": {
+        "totalItems": "3",
+        "selfLink": "https://blogger.googleapis.com/v3/blogs/7345918888953765241/posts/589282733778057779/comments"
+    },
+    "etag": "\"dGltZXN0YW1wOiAxMjEzMjM2MTc2ODkzCm9mZnNldDogMzYwMDAwMAo\""
+}

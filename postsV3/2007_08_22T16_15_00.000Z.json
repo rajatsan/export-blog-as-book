@@ -1,0 +1,33 @@
+{
+    "kind": "blogger#post",
+    "id": "3901467972957583152",
+    "blog": {
+        "id": "7345918888953765241"
+    },
+    "published": "2007-08-22T17:15:00+01:00",
+    "updated": "2016-06-09T00:08:57+01:00",
+    "url": "http://happinessofbeing.blogspot.com/2007/08/spanish-translation-of-happiness-and.html",
+    "selfLink": "https://blogger.googleapis.com/v3/blogs/7345918888953765241/posts/3901467972957583152",
+    "title": "Spanish translation of <i>Happiness and the Art of Being</i>",
+    "content": "Pedro Rodea has translated into Spanish many English books on the teachings of Sri Ramana, including <em>Nan Yar?</em> (Who am I?), <a href=\"http://www.davidgodman.org/books/guruvachakakovai.shtml\" target=\"_blank\"><em>Guru Vachaka Kovai</em></a> (from the English translation by Sri Sadhu Om and me), <a href=\"http://www.sriramanamaharshi.org/downloads/maharshi_gospel.zip\" target=\"_blank\"><em>Maharshi’s Gospel</em></a>, <a href=\"http://www.sriramanamaharshi.org/downloads/talks_full.zip\" target=\"_blank\"><em>Talks with Sri Ramana Maharshi</em></a>, <a href=\"http://www.sriramanamaharshi.org/downloads/day_by_day.zip\" target=\"_blank\"><em>Day by Day with Bhagavan</em></a> and <a href=\"http://www.davidgodman.org/books/beasyouare.shtml\" target=\"_blank\"><em>Be As You Are</em></a>, and his translations are posted as zipped Word documents on his website, <a href=\"http://www.ativarnashram.com/\" target=\"_blank\">www.ativarnashram.com</a>. Some of his translations, such as <a href=\"http://www.davidgodman.org/books/guruvachakakovai.shtml\" target=\"_blank\"><em>Guru Vachaka Kovai</em></a>, have also been published in print by <a href=\"http://www.ignitusediciones.es/\" target=\"_blank\">Ignitus Ediciones</a>.<br /><br />Recently Pedro has been translating <a href=\"http://www.happinessofbeing.com/happiness_art_being.html\" target=\"_blank\"><em>Happiness and the Art of Being</em></a> into Spanish, and he has now posted his translation of the introduction and first two chapters on his website in the zipped file <a href=\"http://www.ativarnashram.com/taller/files/book/Ramana/La%20felicidad%20y%20el%20arte%20de%20ser%20(Introduccion,%20Capitulo%20I%20y%20II).zip\" target=\"_blank\"><em>La Felicidad y el Arte de Ser</em> (Introducción, Capitulo I y II, por Michael James)</a>. He has also posted an extract from this book (a translation of pages 26 to 32) on the page <a href=\"http://www.ativarnashram.com/libro_seleccionado.htm\" target=\"_blank\">Libro de enseñanzas seleccionado</a>.",
+    "author": {
+        "id": "03460943269122289281",
+        "displayName": "Michael James",
+        "url": "https://www.blogger.com/profile/03460943269122289281",
+        "image": {
+            "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+        }
+    },
+    "replies": {
+        "totalItems": "0",
+        "selfLink": "https://blogger.googleapis.com/v3/blogs/7345918888953765241/posts/3901467972957583152/comments"
+    },
+    "labels": [
+        "Bhagavan Sri Ramana Maharshi",
+        "Guru Vācaka Kōvai",
+        "Happiness and the Art of Being",
+        "Nāṉ Yār? (Who am I?)",
+        "Sri Sadhu Om"
+    ],
+    "etag": "\"dGltZXN0YW1wOiAxNDY1NDI3MzM3MTk1Cm9mZnNldDogMzYwMDAwMAo\""
+}
