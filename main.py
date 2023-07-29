@@ -3,17 +3,17 @@ from docx import Document
 from htmldocx import HtmlToDocx
 from os import listdir
 import json
-from datetime import datetime, date
+from datetime import datetime
 
 
 class Extractor:
-    def __init__(self, exports_path: str) -> None:
-        self.exports_path = exports_path 
+    def __init__(self, input_files_path: str) -> None:
+        self.input_files_path = input_files_path 
 
     def list_ordered_files(self):
-        files = listdir(self.exports_path)
+        files = listdir(self.input_files_path)
         files = sorted(files, reverse=True)
-        files = [self.exports_path + "/" + file for file in files]
+        files = [self.input_files_path + "/" + file for file in files]
         return files
 
 
@@ -30,7 +30,7 @@ class Writer:
             print("Writing post", post_file)
             self.write_post_from_file(post_file)
 
-        self.document.save(EXPORT_FILE_NAME)
+        self.document.save(OUTPUT_FILE_NAME)
     
     def get_post_data(self, location):
         with open(location, "r") as f:
@@ -60,7 +60,7 @@ class Writer:
         self.parser.add_html_to_document(post_data["content"], self.document)
 
     
-EXPORTS_PATH_TEST = "/Users/sancraja/Desktop/expt/happinessofbeing_test"
+INPUT_FILES_PATH_TEST = "/Users/sancraja/Desktop/expt/blog_export_node/test"
 VOL1 = "2021_2023"
 VOL2 = "2017_2020"
 VOL3 = "2011_2016"
@@ -68,11 +68,11 @@ VOL4 = "2006_2010"
 
 CURR_VOL = VOL4
 
-EXPORTS_PATH = "/Users/sancraja/Desktop/expt/happinessofbeing/{}".format(CURR_VOL)
-EXPORT_FILE_NAME = "{}.docx".format(CURR_VOL)
+INPUT_FILES_PATH = "/Users/sancraja/Desktop/expt/happinessofbeing/{}".format(CURR_VOL)
+OUTPUT_FILE_NAME = "{}.docx".format(CURR_VOL)
 
 def main():
-    extractor = Extractor(exports_path=EXPORTS_PATH)
+    extractor = Extractor(input_files_path=INPUT_FILES_PATH_TEST)  # TODO: change this parameter 
     post_files = extractor.list_ordered_files()
 
     writer = Writer(post_files=post_files)
