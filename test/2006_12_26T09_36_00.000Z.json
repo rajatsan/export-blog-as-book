@@ -1,0 +1,30 @@
+{
+    "kind": "blogger#post",
+    "id": "6656780705939758372",
+    "blog": {
+        "id": "7345918888953765241"
+    },
+    "published": "2006-12-26T09:36:00Z",
+    "updated": "2008-06-13T00:34:33+01:00",
+    "url": "http://happinessofbeing.blogspot.com/2006/12/new-website-and-e-book-about-bhagavan.html",
+    "selfLink": "https://blogger.googleapis.com/v3/blogs/7345918888953765241/posts/6656780705939758372",
+    "title": "A new website and e-book about Bhagavan Sri Ramana's teachings",
+    "content": "I have recently set up a new website, <a href=\"http://www.happinessofbeing.com/\" target=\"_blank\">http://www.happinessofbeing.com/</a>, which is dedicated to exploring in depth the philosophy and practice of the spiritual teachings of Bhagavan Sri Ramana.<br /><br />At present the main content of this site is a PDF version of my new book, <a href=\"http://www.happinessofbeing.com/resources/happiness_art_being.html\" target=\"_blank\"><i>Happiness and the Art of Being</i></a>, which is intended to serve both as a layman's introduction to the philosophy and practice of Sri Ramana's teachings and as a very detailed and in-depth exploration of the core elements of his teachings.<br /><br />If it is the will of Sri Ramana, I hope to continue adding more content to this site in the form of more e-books, articles, and translations and explanations of all his original writings.<br /><br />If you know anyone whom you think might interested to know about this new website, please inform them about it.<br /><br />Michael James<br /><a href=\"http://www.HappinessOfBeing.com\" target=\"_blank\">www.HappinessOfBeing.com</a>",
+    "author": {
+        "id": "03460943269122289281",
+        "displayName": "Michael James",
+        "url": "https://www.blogger.com/profile/03460943269122289281",
+        "image": {
+            "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+        }
+    },
+    "replies": {
+        "totalItems": "6",
+        "selfLink": "https://blogger.googleapis.com/v3/blogs/7345918888953765241/posts/6656780705939758372/comments"
+    },
+    "labels": [
+        "Bhagavan Sri Ramana Maharshi",
+        "Happiness and the Art of Being"
+    ],
+    "etag": "\"dGltZXN0YW1wOiAxMjEzMzEzNjczMjUzCm9mZnNldDogMzYwMDAwMAo\""
+}

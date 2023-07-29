@@ -1,0 +1,30 @@
+{
+    "kind": "blogger#post",
+    "id": "8434268035460803518",
+    "blog": {
+        "id": "7345918888953765241"
+    },
+    "published": "2006-12-27T11:19:00Z",
+    "updated": "2008-06-13T00:34:33+01:00",
+    "url": "http://happinessofbeing.blogspot.com/2006/12/your-comments-and-questions-are-welcome.html",
+    "selfLink": "https://blogger.googleapis.com/v3/blogs/7345918888953765241/posts/8434268035460803518",
+    "title": "Your questions and comments are welcome",
+    "content": "If you have any questions or comments about the philosophy and practice of the teachings of Sri Ramana, or about any of my writings, whether those contained in my book, <a href=\"http://www.happinessofbeing.com/resources/happiness_art_being.html\" target=\"_blank\"><i>Happiness and the Art of Being</i></a>, in my website, <a href=\"http://www.happinessofbeing.com/\" target=\"_blank\">Happiness of Being</a>, in this <a href=\"http://happinessofbeing.blogspot.com/\">forum</a> or elsewhere, please append them as a comment to this post. Alternatively, if your comment or question relates specifically to any other post in this forum, please append it to that post.<br><br>In order to add a question or comment to this or any other post, if you are not on its own page please go to there by clicking on its title, and then click on the link 'Post a Comment', which you will find after the last comment on that page.<br><br>I will try to answer any questions that you may post in this forum as soon as I can, and since this is intended to be a forum for open discussion, I also welcome any answers that any other participant may like to offer.",
+    "author": {
+        "id": "03460943269122289281",
+        "displayName": "Michael James",
+        "url": "https://www.blogger.com/profile/03460943269122289281",
+        "image": {
+            "url": "//www.blogger.com/img/blogger_logo_round_35.png"
+        }
+    },
+    "replies": {
+        "totalItems": "29",
+        "selfLink": "https://blogger.googleapis.com/v3/blogs/7345918888953765241/posts/8434268035460803518/comments"
+    },
+    "labels": [
+        "Bhagavan Sri Ramana Maharshi",
+        "Happiness and the Art of Being"
+    ],
+    "etag": "\"dGltZXN0YW1wOiAxMjEzMzEzNjczMjUwCm9mZnNldDogMzYwMDAwMAo\""
+}
