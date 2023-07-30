@@ -10,4 +10,4 @@
 * `main.py` is a python script that creates a word document out of the json files.
   * Use python `virtualenv` to run this. Run `source .venv/bin/activate` to activate virtualenv after setting up in VSCode or in any other way.
   * The script takes the input fiels path using `INPUT_FILES_PATH` variable. It doesn't create a single output file but can be used to create multiple volumes. To do this, run the script multiple times by setting the CURR_VOL variable.
-  *
+  * Run using `python3 main.py`
