@@ -4,3 +4,5 @@ postsV2
 build
 test
 .env
+doc_input
+doc_output

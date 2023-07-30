@@ -3,7 +3,7 @@ from docx import Document
 from htmldocx import HtmlToDocx
 from os import listdir
 import json
-from datetime import datetime
+from dateutil.parser import isoparse
 
 
 class Extractor:
@@ -44,17 +44,16 @@ class Writer:
         self.document.add_page_break()
 
     def write_header(self, post_data):
-        title = post_data["title"]
-        self.parser.add_html_to_document("<h1>" + title + "</h1>", self.document)
-        self.parser.add_html_to_document("<h4>" + self.get_publish_date(post_data=post_data) + "</h4>", self.document)
+        self.parser.add_html_to_document("<h1>" + self.get_post_title_str(post_data) + "</h1>", self.document)
         self.parser.add_html_to_document("<br />", self.document)
 
+    def get_post_title_str(self, post_data):
+        publish_date = self.get_publish_datetime(post_data)
+        return "[" + publish_date.strftime("%Y-%m-%d") + "] " + post_data["title"]
 
-    def get_publish_date(self, post_data):
+    def get_publish_datetime(self, post_data):
         raw_datetime = post_data["published"]
-        d = datetime.fromisoformat(raw_datetime)
-        parsed = d.strftime("%A, %d %B %Y")
-        return parsed
+        return isoparse(raw_datetime)
     
     def write_body(self, post_data):
         self.parser.add_html_to_document(post_data["content"], self.document)
@@ -66,13 +65,13 @@ VOL2 = "2017_2020"
 VOL3 = "2011_2016"
 VOL4 = "2006_2010"
 
-CURR_VOL = VOL4
+CURR_VOL = VOL1
 
 INPUT_FILES_PATH = "/Users/sancraja/Desktop/expt/happinessofbeing/{}".format(CURR_VOL)
-OUTPUT_FILE_NAME = "{}.docx".format(CURR_VOL)
+OUTPUT_FILE_NAME = "doc_output/{}.docx".format(CURR_VOL)
 
 def main():
-    extractor = Extractor(input_files_path=INPUT_FILES_PATH_TEST)  # TODO: change this parameter 
+    extractor = Extractor(input_files_path=INPUT_FILES_PATH)  # TODO: change this parameter 
     post_files = extractor.list_ordered_files()
 
     writer = Writer(post_files=post_files)
